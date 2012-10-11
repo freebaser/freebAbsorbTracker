@@ -200,7 +200,7 @@ FAT:SetScript("OnEvent", function(self, event, arg1)
 		if not name then break end
 
 		if(value1 and unitCaster == "player" and spellId == cfg[class]) then
-			updateFat(value1, duration, expirationTime)
+			updateFAT(value1, duration, expirationTime)
 
 			_Hide = false
 			break
