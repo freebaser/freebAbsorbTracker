@@ -1,0 +1,9 @@
+## Interface: 50001
+## Title: freebAbsorbTracker
+## Notes: Tracks player absorption abilities.
+## Author: Freebaser
+## Version: @project-version@ 
+## SavedVariables: freebAbsorbTrackerDB
+
+core.lua
+anchor.lua
