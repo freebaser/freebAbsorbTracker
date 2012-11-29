@@ -195,7 +195,7 @@ FAT:SetScript("OnEvent", function(self, event, arg1)
 	local index=1
 	while true do 
 		local name, rank, icon, count, debuffType, duration, expirationTime, unitCaster, _,
-		_, spellId, _, isBossDebuff, value1, value2, value3 = UnitBuff("player", index)
+		_, spellId, _, isBossDebuff, _, value1, value2, value3 = UnitBuff("player", index)
 
 		if not name then break end
 
